@@ -1,0 +1,19 @@
+{
+    "name": "vue-micro-app-poc",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+      "start": "concurrently \"wsrun --parallel start\""
+    },
+    "workspaces": [
+      "vue2-app",
+      "vue3-app"
+    ],
+    "devDependencies": {
+      "concurrently": "^5.2.0",
+      "wsrun": "^5.2.0"
+    }
+  }
+  
